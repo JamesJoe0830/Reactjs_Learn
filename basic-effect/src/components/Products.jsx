@@ -10,10 +10,10 @@ export default function Products() {
       .then((data) => {
         console.log('🔥뜨끈한 데이터를 네트워크에서 받아옴');
         setProducts(data);
-      });
+      }); // component가 마운트 될떄
     return () => {
       console.log('🧹 깨끗하게 청소하는 일들을 합니다.');
-    };
+    }; // component가 언마운트 될때 
   }, []);
 
   return (
