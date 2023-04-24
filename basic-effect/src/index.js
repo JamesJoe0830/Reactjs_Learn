@@ -1,13 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import AppProducts from './AppProducts';
+import React from "react";
+import ReactDOM from "react-dom/client";
+// import AppMentor from "./components/AppMentors";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+// import AppProducts from "./AppProducts";
+// import AppXY from "./AppXY";
+import AppMentor from "./components/\bAppMentors";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppProducts />
+    {/* <AppProducts /> */}
+    {/* <AppXY /> */}
+    <AppMentor/>
   </React.StrictMode>
 );
 
